@@ -115,24 +115,11 @@ background-image: url(../image/swim.jpeg);
 	background-size: cover;
 	background-repeat: no-repeat;	
 }
-.ani {
-    opacity: 0; 
-    transform: translateY(100%); 
-    
-    animation: slideIn 10s forwards; 
 
+.panel {
+  display: none;  /* Hide all panels initially */
 }
 
-@keyframes slideIn {
-    to {
-        opacity: 1; 
-        transform: translateY(0);
-
-    }
-}
-.ani:nth-of-type(2) {
-    animation-delay: 0.5s;
-}
 
 .styl{
 	text-decoration: none;

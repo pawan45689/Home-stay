@@ -8,6 +8,8 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
     <link rel="stylesheet" type="text/css" href="css/home.css">
 </head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
 <body>
     <!-- header -->
 	<div class="container-fluid header fixed-top bg-success-subtle">
@@ -19,7 +21,7 @@
 			<div class="col-4">
 				<div class="search ">
 					
-					<input type="text" placeholder="Search......."  style="width: 300px; height: 40px; border-radius: 10px; border: none;">
+					<input type="text"id="searchInput" name="search" placeholder="Search......."  style="width: 300px; height: 40px; border-radius: 10px; border: none;">
 					<button class="search-icon bg-white " style="border-radius: 10px; border: none; height: 40px; width: 40px; ">
 						<i class="fa fa-search"></i>
 					</button>
@@ -41,7 +43,7 @@
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="Home-Stay.html">HOME</a>
+                    <a class="nav-link" href="index.html">HOME</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="about-us.html">ABOUT US</a>
@@ -313,58 +315,58 @@
     <h1 class="text-center"> Facilities</h1>
     <div class="row d-flex">
         <div class="col-md-4 p-2 seq">
-            <div class="card p-5 ani" style="height: 300px; background-color: transparent;">
+            <div class="card p-5 " style="height: 300px; background-color: transparent;">
               
-                <h6 class="text-center text-white">Secured Parking</h6>
+                <h4 class="text-center text-white flip">Secured Parking</h4>
                 <div class="card-body">
-                    <p class="text-center text-white">We offer safe and secure parking. Rest easy with our secure parking, ensuring your vehicle is safe throughout your stay. Enjoy peace of mind as you explore and relax!</p>
+                    <p class="text-center text-white panel">We offer safe and secure parking. Rest easy with our secure parking, ensuring your vehicle is safe throughout your stay. Enjoy peace of mind as you explore and relax!</p>
                 </div>
             </div>
         </div>
        
         <div class="col-md-4 p-2 travel">
-            <div class="card  p-5 ani" style="height: 300px; background-color: transparent;">
+            <div class="card  p-5 " style="height: 300px; background-color: transparent;">
                 
-                <h4 class="text-center text-white">Travel Guide</h4>
-                <div class="card-body text-white">
-                    <p class="text-center ">Discover the best of the area with our comprehensive travel guide, featuring hidden gems and local favorites. Let us help you plan unforgettable adventures during your stay.</p>
+                <h4 class="text-center text-white flip">Travel Guide</h4>
+                <div class="card-body text-white ">
+                    <p class="text-center panel">Discover the best of the area with our comprehensive travel guide, featuring hidden gems and local favorites. Let us help you plan unforgettable adventures during your stay.</p>
                 </div>
             </div>
         </div>
         
         <div class="col-md-4 p-2 wifi">
-            <div class="card  p-5 ani" style="height: 300px; background-color: transparent;">
+            <div class="card  p-5 " style="height: 300px; background-color: transparent;">
                 
-                <h4 class="text-center text-white">Free Wifi</h4>
+                <h4 class="text-center text-white flip">Free Wifi</h4>
                 <div class="card-body">
-                    <p class="text-center text-white">Stay connected with our complimentary Wi-Fi, available throughout the property. Enjoy seamless browsing, streaming, and staying in touch while you relax.</p>
+                    <p class="text-center text-white panel">Stay connected with our complimentary Wi-Fi, available throughout the property. Enjoy seamless browsing, streaming, and staying in touch while you relax.</p>
                 </div>
             </div>
         </div>
         <div class="col-md-4 p-2 food">
-            <div class="card py-5 ani" style="height: 300px; background-color: transparent;">
+            <div class="card py-5 " style="height: 300px; background-color: transparent;">
                 
-                <h4 class="text-center text-white">Healthy Food</h4>
+                <h4 class="text-center text-white flip">Healthy Food</h4>
                 <div class="card-body">
-                    <p class="text-center  text-white">Savor delicious and nutritious meals made from fresh, local ingredients. Enjoy healthy dining options that nourish your body and delight your taste buds.</p>
+                    <p class="text-center  text-white panel">Savor delicious and nutritious meals made from fresh, local ingredients. Enjoy healthy dining options that nourish your body and delight your taste buds.</p>
                 </div>
             </div>
         </div>
         <div class="col-md-4 p-2 camp">
-            <div class="card py-5 ani" style="height: 300px;  background-color: transparent;">
+            <div class="card py-5 " style="height: 300px;  background-color: transparent;">
                 
-                <h4 class="text-center text-white">Campfire</h4>
+                <h4 class="text-center text-white flip">Campfire</h4>
                 <div class="card-body">
-                    <p class="text-center  text-white">Gather around our cozy campfire for unforgettable evenings under the stars. Share stories, enjoy s'mores, and create lasting memories in a warm and inviting atmosphere.</p>
+                    <p class="text-center  text-white panel">Gather around our cozy campfire for unforgettable evenings under the stars. Share stories, enjoy s'mores, and create lasting memories in a warm and inviting atmosphere.</p>
                 </div>
             </div>
         </div>
         <div class="col-md-4 p-2 swim">
-            <div class="card py-5 ani" style="height: 300px; background-color: transparent;">
+            <div class="card py-5 " style="height: 300px; background-color: transparent;">
                
-                <h4 class="text-center text-white">Swimming</h4>
+                <h4 class="text-center text-white flip">Swimming</h4>
                 <div class="card-body">
-                    <p class="text-center p-3 text-white">Enjoy refreshing swims in our crystal-clear pool, surrounded by stunning views. Dive into relaxation and make lasting memories at our cozy homestay.</p>
+                    <p class="text-center p-3 text-white panel">Enjoy refreshing swims in our crystal-clear pool, surrounded by stunning views. Dive into relaxation and make lasting memories at our cozy homestay.</p>
                 </div>
             </div>
         </div>
@@ -506,7 +508,14 @@
     }
 })
 </script>
-
+<script>
+$(document).ready(function(){
+  $(".flip").mouseover(function(){
+    $(".panel").slideUp("slow");
+    $(this).next(".card-body").find(".panel").stop(true, true).slideToggle("slow");
+  });
+});
+</script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </html>
