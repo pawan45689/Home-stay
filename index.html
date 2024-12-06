@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home-Stay</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/home.css" />
+  </head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <body>
+    <!-- header -->
+    <div class="container-fluid header fixed-top bg-success-subtle">
+      <div class="row">
+        <div class="col-6 text-start">
+          <a href="index.html"
+            ><img
+              src="image\ogo-design.jpeg"
+              style="width: 100px; height: 100px; mix-blend-mode: darken"
+              class="img-thumbnail rounded-circle"
+          /></a>
+        
+        </div>
+        <div class="col-6 text-end" style="margin-top: 40px">
+          <a href="Login.html"
+            ><button class="btn btn-dark" style="border-radius: 10px">
+              Login
+            </button>
+          </a>
+        </div>
+        <!-- navigation -->
+        <div class="col-12 bg-white mb-2">
+          <nav class="navbar navbar-expand-md navbar-light">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbar"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about-us.html">ABOUT US</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    HOMESTAYS
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">North India</a></li>
+                    <li><a class="dropdown-item" href="#">South India</a></li>
+                    <li><a class="dropdown-item" href="#">East India</a></li>
+                    <li><a class="dropdown-item" href="#">West India</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">North East India</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Central India</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#Gallery">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- Banner -->
+    <div class="container-fluid" style="margin-top: 200px">
+      <div class="row py-3">
+        <div class="col">
+          <div id="mycarousel" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators" style="list-style: none">
+              <li data-bs-target="#mycarousel" data-bs-slide-to="0"></li>
+              <li
+                data-bs-target="#mycarousel"
+                data-bs-slide-to="1"
+                class="active"
+              ></li>
+              <li data-bs-target="#mycarousel" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item">
+                <img src="image\1.jpeg" class="d-block w-100" height="500px" />
+              </div>
+              <div class="carousel-item active">
+                <img src="image\2.jpeg" class="d-block w-100" height="500px" />
+              </div>
+              <div class="carousel-item">
+                <img src="image\3.jpeg" class="d-block w-100" height="500px" />
+              </div>
+            </div>
+            <a
+              href="#mycarousel"
+              class="carousel-control-prev"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a
+              href="#mycarousel"
+              class="carousel-control-next"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+    <div class="row">
+        <div class="col-12 col-md-6 mx-auto">
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" class="form-control" placeholder="Search here...">
+                
+            </ul>
+        </div>
+    </nav>
+</div>
+			
+		</div>
+	</div>
+    
+
+    <!-- Explore india -->
+    <div class="container-fluid bg-success text-white text-center mt-4 py-5">
+      <h1
+        style="
+          color: white;
+          text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+        "
+      >
+        Welcome to India Home Stay
+      </h1>
+      <p
+        style="
+          color: white;
+          text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+        "
+      >
+        Experience the warmth of Indian hospitality.
+      </p>
+      <a href="payment.html" class="btn btn-light btn-lg">Book Now</a>
+    </div>
+    <!--  -->
+    <div class="container my-3 bg-success-subtle">
+      <div class="row mx-auto my-auto justify-content-center text-center">
+        <h4 class="card-title">Explore India</h4>
+        <p>These popular destinations have a lot to offer</p>
+        <div
+          id="recipeCarousel_03"
+          class="carousel carousel_03"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item">
+              <div class="col-md-2 p-2">
+                <div class="card">
+                  <div class="card-img">
+                    <a href="#">
+                      <img
+                        src="image\goa.jpg"
+                        class="img-fluid rounded-circle"
+                        style="height: 200px"
+                    /></a>
+                  </div>
+                  <a href="" style="text-decoration: none; color: black">
+                    <h5 style="box-shadow: 10px 10px 20px 5px grey">Goa</h5></a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item carousel-item_03">
+              <div class="col-md-2 p-2">
+                <div class="card">
+                  <div class="card-img">
+                    <a href="#">
+                      <img
+                        src="image\munnarjpg.jpg"
+                        class="img-fluid rounded-circle"
+                        style="height: 200px"
+                    /></a>
+                  </div>
+                  <a href="" style="text-decoration: none; color: black">
+                    <h5 style="box-shadow: 10px 10px 20px 5px grey">
+                      Munnar
+                    </h5></a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item active carousel-item_03">
+              <div class="col-md-2 p-2">
+                <div class="card">
+                  <div class="card-img">
+                    <a href="#">
+                      <img
+                        src="image\lonavala.jpg"
+                        class="img-fluid rounded-circle"
+                        style="height: 200px"
+                    /></a>
+                  </div>
+                  <a href="" style="text-decoration: none; color: black">
+                    <h5 style="box-shadow: 10px 10px 20px 5px grey">
+                      Lonavala
+                    </h5></a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item carousel-item_03">
+              <div class="col-md-2 p-2">
+                <div class="card">
+                  <div class="card-img">
+                    <a href="#">
+                      <img
+                        src="image\oty.jpg"
+                        class="img-fluid rounded-circle"
+                        style="height: 200px"
+                    /></a>
+                  </div>
+                  <a href="" style="text-decoration: none; color: black">
+                    <h5 style="box-shadow: 10px 10px 20px 5px grey">Ooty</h5></a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item carousel-item_03">
+              <div class="col-md-2 p-2">
+                <div class="card">
+                  <div class="card-img">
+                    <a href="#">
+                      <img
+                        src="image\Vagamon.jpg"
+                        class="img-fluid rounded-circle"
+                        style="height: 200px"
+                    /></a>
+                  </div>
+                  <a href="" style="text-decoration: none; color: black">
+                    <h5 style="box-shadow: 10px 10px 20px 5px grey">
+                      Vagamon
+                    </h5></a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item carousel-item_03">
+              <div class="col-md-2 p-2">
+                <div class="card">
+                  <div class="card-img">
+                    <a href="#">
+                      <img
+                        src="image\Wayanad.jpg"
+                        class="img-fluid rounded-circle"
+                        style="height: 200px"
+                    /></a>
+                  </div>
+                  <a href="" style="text-decoration: none; color: black">
+                    <h5 style="box-shadow: 10px 10px 20px 5px grey">
+                      Wayanad
+                    </h5></a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item carousel-item_03">
+              <div class="col-md-2 p-2">
+                <div class="card">
+                  <div class="card-img">
+                    <a href="#">
+                      <img
+                        src="image\Coonoorjpg.jpg"
+                        class="img-fluid rounded-circle"
+                        style="height: 200px"
+                    /></a>
+                  </div>
+                  <a href="" style="text-decoration: none; color: black">
+                    <h5 style="box-shadow: 10px 10px 20px 5px grey">
+                      Coonoor
+                    </h5></a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item carousel-item_03">
+              <div class="col-md-2 p-2">
+                <div class="card">
+                  <div class="card-img">
+                    <a href="#">
+                      <img
+                        src="image\goa.jpg"
+                        class="img-fluid rounded-circle"
+                        style="height: 200px"
+                    /></a>
+                  </div>
+                  <a href="" style="text-decoration: none; color: black">
+                    <h5 style="box-shadow: 10px 10px 20px 5px grey">Goa</h5></a
+                  >
+                </div>
+                `
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev bg-transparent w-aut"
+            href="#recipeCarousel_03"
+            role="button"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </a>
+          <a
+            class="carousel-control-next bg-transparent w-aut"
+            href="#recipeCarousel_03"
+            role="button"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </a>
+        </div>
+        <div class="col-12 text-center">
+          <a href="more.html">
+            <button class="btn btn-info mb-5" style="border-radius: 10px">
+              More...
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <div class="container-fluid mt-5 text-center bg-danger py-5">
+      <div class="row">
+        <h4
+          class="slide-in"
+          style="
+            color: white;
+            text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+          "
+        >
+          Spend a memorable break
+        </h4>
+        <p
+          class="slide-in"
+          style="
+            color: white;
+            text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+          "
+        >
+          Relax, Refresh and get pampered amidst the landscapes of nature.
+        </p>
+      </div>
+    </div>
+    <!-- Explore section start  -->
+    <div class="container bg-success-subtle mt-4">
+      <h1 class="text-center">Explore</h1>
+
+      <div class="row">
+        <div class="col-md-3 p-2">
+          <a href="">
+            <img
+              src="image/download (1).jpeg"
+              alt="Description of image 1"
+              class="img-thumbnail img-fluid"
+              style="box-shadow: 10px 10px 20px 5px grey"
+            /><button
+              class="btn btn-danger"
+              style="border-radius: 10px; margin-top: -30px"
+            >
+              ₹1,699
+            </button>
+          </a>
+        </div>
+        <div class="col-md-3 p-2">
+          <a href="">
+            <img
+              src="image/download (2).jpeg"
+              alt="Description of image 2"
+              class="img-thumbnail img-fluid"
+              style="box-shadow: 10px 10px 20px 5px grey"
+            /><button
+              class="btn btn-danger"
+              style="border-radius: 10px; margin-top: -30px"
+            >
+              ₹2,699
+            </button>
+          </a>
+        </div>
+        <div class="col-md-3 p-2">
+          <a href="">
+            <img
+              src="image/download(8).jpeg"
+              alt="Description of image 3"
+              class="img-thumbnail img-fluid"
+              style="box-shadow: 10px 10px 20px 5px grey"
+            /><button
+              class="btn btn-danger"
+              style="border-radius: 10px; margin-top: -30px"
+            >
+              ₹1,699
+            </button>
+          </a>
+        </div>
+        <div class="col-md-3 p-2">
+          <a href="">
+            <img
+              src="image/download (4).jpeg"
+              alt="Description of image 4"
+              class="img-thumbnail img-fluid"
+              style="box-shadow: 10px 10px 20px 5px grey"
+            /><button
+              class="btn btn-danger"
+              style="border-radius: 10px; margin-top: -30px"
+            >
+              ₹999
+            </button>
+          </a>
+        </div>
+        <div class="col-md-3 p-2">
+          <a href="">
+            <img
+              src="image/download (5).jpeg"
+              alt="Description of image 1"
+              class="img-thumbnail img-fluid"
+              style="box-shadow: 10px 10px 20px 5px grey"
+            /><button
+              class="btn btn-danger"
+              style="border-radius: 10px; margin-top: -30px"
+            >
+              ₹1,999
+            </button>
+          </a>
+        </div>
+        <div class="col-md-3 p-2">
+          <a href="">
+            <img
+              src="image/download (6).jpeg"
+              alt="Description of image 2"
+              class="img-thumbnail img-fluid"
+              style="box-shadow: 10px 10px 20px 5px grey"
+            /><button
+              class="btn btn-danger"
+              style="border-radius: 10px; margin-top: -30px"
+            >
+              ₹1,999
+            </button>
+          </a>
+        </div>
+        <div class="col-md-3 p-2">
+          <a href="">
+            <img
+              src="image/download (7).jpeg"
+              alt="Description of image 3"
+              class="img-thumbnail img-fluid"
+              style="box-shadow: 10px 10px 20px 5px grey"
+            /><button
+              class="btn btn-danger"
+              style="border-radius: 10px; margin-top: -30px"
+            >
+              ₹1,599
+            </button>
+          </a>
+        </div>
+        <div class="col-md-3 p-2">
+          <a href="">
+            <img
+              src="image\images (1).jpeg"
+              alt="Description of image 4"
+              class="img-thumbnail img-fluid"
+              style="box-shadow: 10px 10px 20px 5px grey"
+            /><button
+              class="btn btn-danger btn-block"
+              style="border-radius: 10px; margin-top: -30px"
+            >
+              ₹2,599
+            </button>
+          </a>
+        </div>
+        <div class="col-12 text-center">
+          <a href="Explore.html">
+            <button class="btn btn-info mb-5" style="border-radius: 10px">
+              Explore
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Facilities section -->
+    <div class="container mt-5 Fac">
+      <h1 class="text-center">Facilities</h1>
+      <div class="row d-flex">
+        <div class="col-md-4 p-2 seq">
+          <div
+            class="card p-5"
+            style="height: 300px; background-color: transparent"
+          >
+            <h4 class="text-center text-white flip">Secured Parking</h4>
+            <div class="card-body">
+              <p class="text-center text-white panel">
+                We offer safe and secure parking. Rest easy with our secure
+                parking, ensuring your vehicle is safe throughout your stay.
+                Enjoy peace of mind as you explore and relax!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 p-2 travel">
+          <div
+            class="card p-5"
+            style="height: 300px; background-color: transparent"
+          >
+            <h4 class="text-center text-white flip">Travel Guide</h4>
+            <div class="card-body text-white">
+              <p class="text-center panel">
+                Discover the best of the area with our comprehensive travel
+                guide, featuring hidden gems and local favorites. Let us help
+                you plan unforgettable adventures during your stay.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 p-2 wifi">
+          <div
+            class="card p-5"
+            style="height: 300px; background-color: transparent"
+          >
+            <h4 class="text-center text-white flip">Free Wifi</h4>
+            <div class="card-body">
+              <p class="text-center text-white panel">
+                Stay connected with our complimentary Wi-Fi, available
+                throughout the property. Enjoy seamless browsing, streaming, and
+                staying in touch while you relax.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 p-2 food">
+          <div
+            class="card py-5"
+            style="height: 300px; background-color: transparent"
+          >
+            <h4 class="text-center text-white flip">Healthy Food</h4>
+            <div class="card-body">
+              <p class="text-center text-white panel">
+                Savor delicious and nutritious meals made from fresh, local
+                ingredients. Enjoy healthy dining options that nourish your body
+                and delight your taste buds.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 p-2 camp">
+          <div
+            class="card py-5"
+            style="height: 300px; background-color: transparent"
+          >
+            <h4 class="text-center text-white flip">Campfire</h4>
+            <div class="card-body">
+              <p class="text-center text-white panel">
+                Gather around our cozy campfire for unforgettable evenings under
+                the stars. Share stories, enjoy s'mores, and create lasting
+                memories in a warm and inviting atmosphere.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 p-2 swim">
+          <div
+            class="card py-5"
+            style="height: 300px; background-color: transparent"
+          >
+            <h4 class="text-center text-white flip">Swimming</h4>
+            <div class="card-body">
+              <p class="text-center p-3 text-white panel">
+                Enjoy refreshing swims in our crystal-clear pool, surrounded by
+                stunning views. Dive into relaxation and make lasting memories
+                at our cozy homestay.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- style section -->
+    <div class="container bg-success-subtle mt-4">
+      <h1>Find spaces that suit your style</h1>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card text-white position-relative">
+            <img src="image/download (7).jpeg" />
+            <div class="card-img-overlay align-items-end d-flex p-2">
+              <h4 class="card-title">
+                <a href="house.html" class="styl">House</a>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-white position-relative">
+            <img src="image/download (8).jpeg" />
+            <div class="card-img-overlay align-items-end d-flex p-2">
+              <h4 class="card-title">
+                <a href="Cottage.html" class="styl">Cottage</a>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-white position-relative">
+            <img src="image/download (9).jpeg" />
+            <div class="card-img-overlay align-items-end d-flex p-2">
+              <h4 class="card-title">
+                <a href="villa.html" class="styl">villa</a>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-white">
+            <img src="image/download (10).jpeg" />
+            <div class="card-img-overlay align-items-end d-flex p-2">
+              <h4 class="card-title">
+                <a href="chalet.html" class="styl">Chalet</a>
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container mt-5 text-center bg-success-subtle">
+      <h2>Homestay Inspiration</h2>
+      <div class="row align-items-center justify-content-center p-5">
+        <img
+          src="image\istockphoto.jpeg"
+          alt="Homestay experience"
+          class="img-fluid"
+          style="max-width: 300px"
+        />
+        <p>
+          Homestays provide a rich tapestry of experiences that connect
+          travelers with local cultures and communities. Imagine sharing meals
+          with a welcoming family, learning to cook traditional dishes, or
+          participating in vibrant festivals that showcase regional customs.
+          Whether nestled in a serene countryside, a bustling city, or a scenic
+          coastal town, each homestay offers a unique opportunity to immerse
+          yourself in everyday life. From helping on a farm to exploring hidden
+          gems recommended by your hosts, these experiences foster genuine
+          connections and create cherished memories that last long after your
+          journey ends.
+        </p>
+      </div>
+    </div>
+
+    <!-- Gallery section -->
+    <div class="container-fluid mt-5 text-center" id="Gallery">
+      <h2>Gallery</h2>
+      <div class="row p-2">
+        <div class="col-md-2">
+          <a href="image\download (4).jpeg"
+            ><img src="image\download (4).jpeg" class="img-fluid p-1"
+          /></a>
+        </div>
+        <div class="col-md-2">
+          <a href="image\download (28).jpeg"
+            ><img src="image\download (28).jpeg" class="img-fluid p-1"
+          /></a>
+        </div>
+        <div class="col-md-2">
+          <a href="image\download (6).jpeg"
+            ><img src="image\download (6).jpeg" class="img-fluid p-1"
+          /></a>
+        </div>
+        <div class="col-md-2">
+          <a href="image\download (7).jpeg"
+            ><img src="image\download (7).jpeg" class="img-fluid p-1"
+          /></a>
+        </div>
+        <div class="col-md-2">
+          <a href="image\download (8).jpeg"
+            ><img src="image\download (8).jpeg" class="img-fluid p-1"
+          /></a>
+        </div>
+        <div class="col-md-2">
+          <a href="image\download (9).jpeg"
+            ><img src="image\download (9).jpeg" class="img-fluid p-1"
+          /></a>
+        </div>
+        <div class="col-md-2">
+          <a href="image\download (10).jpeg"
+            ><img src="image\download (10).jpeg" class="img-fluid p-1"
+          /></a>
+        </div>
+        <div class="col-md-2">
+          <a href="image\download (30).jpeg"
+            ><img src="image\download (30).jpeg" class="img-fluid p-1"
+          /></a>
+        </div>
+        <div class="col-md-2">
+          <a href="image\download (34).jpeg"
+            ><img src="image\download (34).jpeg" class="img-fluid p-1"
+          /></a>
+        </div>
+        <div class="col-md-2">
+          <a href="image\download (13).jpeg"
+            ><img src="image\download (13).jpeg" class="img-fluid p-1"
+          /></a>
+        </div>
+        <div class="col-md-2">
+          <a href="image\download (14).jpeg"
+            ><img src="image\download (14).jpeg" class="img-fluid p-1"
+          /></a>
+        </div>
+        <div class="col-md-2">
+          <a href="image\download (15).jpeg"
+            ><img src="image\download (15).jpeg" class="img-fluid p-1"
+          /></a>
+        </div>
+        <div class="col-md-2">
+          <a href="image\download (16).jpeg"
+            ><img src="image\download (16).jpeg" class="img-fluid p-1"
+          /></a>
+        </div>
+        <div class="col-md-2">
+          <a href="image\download (17).jpeg"
+            ><img src="image\download (17).jpeg" class="img-fluid p-1"
+          /></a>
+        </div>
+        <div class="col-md-2">
+          <a href="image\download (33).jpeg"
+            ><img src="image\download (33).jpeg" class="img-fluid p-1"
+          /></a>
+        </div>
+        <div class="col-md-2">
+          <a href="image\download (32).jpeg"
+            ><img src="image\download (32).jpeg" class="img-fluid p-1" />
+          </a>
+        </div>
+        <div class="col-md-2">
+          <a href="image\download (34).jpeg"
+            ><img src="image\download (34).jpeg" class="img-fluid p-1" />
+          </a>
+        </div>
+        <div class="col-md-2">
+          <a href="image\download (21).jpeg"
+            ><img src="image\download (21).jpeg" class="img-fluid p-1" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Footer section -->
+    <div class="container-fluid bg-secondary text-white mt-4">
+      <div class="row">
+        <div class="col-md-4">
+          <h4 class="text-center">About Home Stay</h4>
+          <hr />
+          <p class="text-center p-3">
+            A homestay is a student accommodation option where you stay in the
+            home of a host family. You will get a room, meals and use of the
+            house facilities while you live there.
+          </p>
+        </div>
+        <div class="col-md-4 text-center py-2">
+          <a href="index.html"
+            ><img
+              src="image\ogo-design.jpeg"
+              style="width: 200px; height: 200px; mix-blend-mode: darken"
+              class="img-thumbnail rounded-circle"
+          /></a>
+        </div>
+        <div class="col-md-4">
+          <h4>Contact Us</h4>
+          <hr />
+          <a href=""
+            ><i class="fa-solid fa-envelope" style="color: #e4e9f1"></i
+          ></a>
+          <a href=""
+            ><i class="fa-solid fa-location-dot ps-2" style="color: #ecebf0"></i
+          ></a>
+          <br />
+          <hr />
+          <a href="https://www.instagram.com/" target="blank"
+            ><i
+              class="fa-brands fa-instagram"
+              style="color: #e5e7eb; font-size: 50px"
+            ></i
+          ></a>
+
+          <a href="https://www.facebook.com/" target="blank"
+            ><i
+              class="fa-brands fa-facebook"
+              style="color: #e4e7ec; font-size: 50px"
+            ></i
+          ></a>
+
+          <a href="https://x.com/i/flow/login" target="blank"
+            ><i
+              class="fa-brands fa-twitter"
+              style="color: #eff1f5; font-size: 50px"
+            ></i
+          ></a>
+          <hr />
+        </div>
+      </div>
+    </div>
+    <div class="container d-flex justify-content-end">
+      <a href="#"
+        ><img
+          src="image\web-chat.webp"
+          width="200px"
+          style="position: fixed; right: 0; bottom: 0"
+      /></a>
+    </div>
+  </body>
+  <script type="text/javascript">
+    let items_2 = document.querySelectorAll(".carousel_03 .carousel-item_03");
+
+    items_2.forEach((el) => {
+      const minPerSlide = 6;
+      let next = el.nextElementSibling;
+      for (var i = 1; i < minPerSlide; i++) {
+        if (!next) {
+          // wrap carousel by using first child
+          next = items_2[0];
+        }
+        let cloneChild = next.cloneNode(true);
+        el.appendChild(cloneChild.children[0]);
+        next = next.nextElementSibling;
+      }
+    });
+  </script>
+  <script>
+    $(document).ready(function () {
+      $(".flip").mouseover(function () {
+        $(".panel").slideUp("slow");
+        $(this)
+          .next(".card-body")
+          .find(".panel")
+          .stop(true, true)
+          .slideToggle("slow");
+      });
+    });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</html>

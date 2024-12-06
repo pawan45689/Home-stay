@@ -1,0 +1,138 @@
+body{
+            background-image: url(../image/Background-Web.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+        }
+   
+
+.search-bar {
+    position: relative;
+    width: 100%;
+}
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px; 
+    border-radius: 25px;
+    border: 1px solid #ced4da;
+}
+.search-bar .fa-search {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6c757d;
+}
+
+.navbar-nav .nav-link:hover {
+    color: orange; 
+}
+
+.dropdown-menu {
+    display: none; 
+}
+.dropdown-menu .dropdown-item:hover {
+    background-color: #f8f9fa; 
+        color: #007bff;
+}
+		
+
+     @media only screen and (max-width:768px) {
+    .scroll {
+        overflow: scroll;
+    }
+}
+ 
+
+		@media (max-width: 767px) {
+		.carousel-inner .carousel-item > div {
+			display: none;
+		}
+		.carousel-inner .carousel-item > div:first-child {
+			display: block;
+		}
+	}
+
+	.carousel-inner .carousel-item.active,
+	.carousel-inner .carousel-item-next,
+	.carousel-inner .carousel-item-prev {
+		display: flex;
+	}
+
+	/* medium and up screens */
+	@media (min-width: 768px) {
+
+		.carousel-inner .carousel-item-end.active,
+		.carousel-inner .carousel-item-next {
+			transform: translateX(25%);
+		}
+
+		.carousel-inner .carousel-item-start.active, 
+		.carousel-inner .carousel-item-prev {
+			transform: translateX(-25%);
+		}
+	}
+
+	.carousel-inner .carousel-item-end,
+	.carousel-inner .carousel-item-start { 
+		transform: translateX(0);
+	}
+	.btn:hover{
+     color: orange;
+	}
+	.slide-in {
+  opacity: 0; 
+  transform: translateX(-100%); 
+  animation: slideIn 5s forwards; 
+}
+
+@keyframes slideIn {
+  to {
+    opacity: 1; 
+    transform: translateX(0); 
+  }
+}
+.camp{
+	background-image: url(../image/camp.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.seq{
+	background-image: url(../image/Parking.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.travel{
+	background-image: url(../image/Travel.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+.wifi{
+	background-image: url(../image/wifi.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.food{
+	background-image: url(../image/Food.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.swim{
+background-image: url(../image/swim.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;	
+}
+
+.panel {
+  display: none;  /* Hide all panels initially */
+}
+
+
+.styl{
+	text-decoration: none;
+	 color: white;
+}
+.styl:hover{
+	color: orange;
+}

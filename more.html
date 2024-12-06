@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html >
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MORE</title>
+	  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+	  <style type="text/css">
+	  	
+		@media (max-width: 767px) {
+		.carousel-inner .carousel-item > div {
+			display: none;
+		}
+		.carousel-inner .carousel-item > div:first-child {
+			display: block;
+		}
+	}
+
+	.carousel-inner .carousel-item.active,
+	.carousel-inner .carousel-item-next,
+	.carousel-inner .carousel-item-prev {
+		display: flex;
+	}
+
+	/* medium and up screens */
+	@media (min-width: 768px) {
+
+		.carousel-inner .carousel-item-end.active,
+		.carousel-inner .carousel-item-next {
+			transform: translateX(25%);
+		}
+
+		.carousel-inner .carousel-item-start.active, 
+		.carousel-inner .carousel-item-prev {
+			transform: translateX(-25%);
+		}
+	}
+
+	.carousel-inner .carousel-item-end,
+	.carousel-inner .carousel-item-start { 
+		transform: translateX(0);
+	}
+    .btn:hover{
+        color: orange;
+        background-color: black;
+    }
+    .navbar-nav .nav-link:hover {
+    color: orange; 
+}
+
+	  </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <a href="index.html"><img src="image\ogo-design.jpeg" style="width: 100px; height: 100px;  mix-blend-mode: darken" class="img-thumbnail rounded-circle"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbar">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#justlisted">New</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#room">Roomes</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    </div>
+<div class="container bg-success  text-white text-center mt-4 py-5 ">
+            <h1>Welcome to India Home Stay</h1>
+            <p class="text-center">"Experience the true essence of India with our home stays. Our welcoming atmosphere and personalized service make every guest feel at home, ensuring a memorable stay filled with warmth and hospitality."</p>
+            <a href="#" class="btn btn-light btn-lg">Book Now</a>
+        </div>
+        <!--  -->
+	  <div class="container  my-3   bg-success-subtle">
+        <div class="row mx-auto my-auto justify-content-center">
+            <h4 class="card-title">
+                          Explore India
+                        </h4>
+                        <p>Discover India's breathtaking landscapes and rich culture. From the serene beaches of Goa to the misty hills of Munnar, each destination offers unique experiences waiting to be explored. Let us guide you on your journey through this incredible country.</p>
+            <div id="recipeCarousel_03" class="carousel carousel_03 " data-bs-ride="carousel">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item ">
+                        <div class="col-md-3  p-2">
+                            <div class="card">
+                                <div class="card-img">
+                                   <a href="#"> <img src="image\goa.jpg" class="img-fluid " style=" height: 200px; "></a>
+                                </div>                              
+                               <a href="" style="text-decoration: none; color: black;"> <h5  style="box-shadow: 10px 10px 20px 5px grey; ">Goa</h5></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="carousel-item  carousel-item_03">
+                        <div class="col-md-3 p-2">
+                            <div class="card">
+                                <div class="card-img">
+                                   <a href="#"> <img src="image\munnarjpg.jpg" class="img-fluid " style=" height: 200px; "></a>
+                                </div>                              
+                               <a href="" style="text-decoration: none; color: black;"> <h5  style="box-shadow: 10px 10px 20px 5px grey; ">Munnar</h5></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item active carousel-item_03">
+                        <div class="col-md-3 p-2">
+                            <div class="card">
+                                <div class="card-img">
+                                   <a href="#"> <img src="image\lonavala.jpg" class="img-fluid " style=" height: 200px; "></a>
+                                </div>                              
+                               <a href="" style="text-decoration: none; color: black;"> <h5  style="box-shadow: 10px 10px 20px 5px grey; ">Lonavala</h5></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item  carousel-item_03">
+                        <div class="col-md-3 p-2">
+                            <div class="card">
+                               <div class="card-img">
+                                   <a href="#"> <img src="image\oty.jpg" class="img-fluid " style=" height: 200px; "></a>
+                                </div>                              
+                               <a href="" style="text-decoration: none; color: black;"> <h5  style="box-shadow: 10px 10px 20px 5px grey; ">Ooty</h5></a>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="carousel-item  carousel-item_03">
+                        <div class="col-md-3 p-2">
+                            <div class="card">
+                                <div class="card-img">
+                                   <a href="#"> <img src="image\Vagamon.jpg" class="img-fluid " style=" height: 200px; "></a>
+                                </div>                              
+                               <a href="" style="text-decoration: none; color: black;"> <h5  style="box-shadow: 10px 10px 20px 5px grey; ">Vagamon</h5></a>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="carousel-item  carousel-item_03">
+                        <div class="col-md-3 p-2">
+                            <div class="card">
+                               <div class="card-img">
+                                   <a href="#"> <img src="image\Wayanad.jpg" class="img-fluid " style=" height: 200px; "></a>
+                                </div>                              
+                               <a href="" style="text-decoration: none; color: black;"> <h5  style="box-shadow: 10px 10px 20px 5px grey; ">Wayanad</h5></a>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="carousel-item  carousel-item_03">
+                        <div class="col-md-3 p-2">
+                            <div class="card">
+                                <div class="card-img">
+                                   <a href="#"> <img src="image\Coonoorjpg.jpg" class="img-fluid " style=" height: 200px; "></a>
+                                </div>                              
+                               <a href="" style="text-decoration: none; color: black;"> <h5  style="box-shadow: 10px 10px 20px 5px grey; ">Coonoor</h5></a>
+                            </div>
+                        </div>
+                    </div>
+                     
+                     
+                </div>
+                <a class="carousel-control-prev bg-transparent w-aut" href="#recipeCarousel_03" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next bg-transparent w-aut" href="#recipeCarousel_03" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+            </div>
+            
+        </div>
+        </div>      
+    </div>
+
+
+    <<div class="container" id="justlisted">
+     <h1 class="text-center ">Just Listed</h1>
+   <p class="text-center ps-3 ">Check out our newly listed properties, each selected for its charm and comfort. Whether you're seeking adventure or relaxation, our home stays provide the perfect base for your explorations in the lap of nature.</p>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <img src="image\download (28).jpeg" style="box-shadow: 10px 10px 20px 5px grey; height: 200px">
+                <div class="card-body">
+                    <div class="card-title">
+                        <h4>Joshimath</h4>
+                        <h5 class="card-subtitle text-muted ">
+                            <p>Lap Of Gods Home Stay.....</p>
+                        </h5>
+                         <button class="btn btn-danger text-white"> ₹1,599 per night</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="image\download (29).jpeg" style="box-shadow: 10px 10px 20px 5px grey; height: 200px">
+                <div class="card-body">
+                    <div class="card-title">
+                        <h4>Sikkim</h4>
+                        <h5 class="card-subtitle text-muted">
+                            <p>Treditional Home Stay.......</p>
+                        </h5>
+                         <button class="btn btn-danger text-white"> ₹2,999 per night</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="image\download (30).jpeg" style="box-shadow: 10px 10px 20px 5px grey; height: 200px;">
+                <div class="card-body">
+                    <div class="card-title">
+                        <h4>Manali </h4>
+                        <h5 class="card-subtitle text-muted">
+                          <p> View Home Stay....</p>
+                        </h5>
+                         <button class="btn btn-danger text-white"> ₹2,299 per night</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="image\download (31).jpeg" style="box-shadow: 10px 10px 20px 5px grey; height: 200px">
+                <div class="card-body">
+                    <div class="card-title">
+                        <h4>Coonoor</h4>
+                        <h5 class="card-subtitle text-muted">
+                           <p> Sun Sine Home Stay....</p>
+                        </h5>
+                        <button class="btn btn-danger text-white"> ₹1,999 per night</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        
+       
+    </div>
+</div>
+
+    <!--  -->
+    <div class="container mt-5" id="room">
+     <h1 class="text-center">Rooms & Suites</h1>
+   <p class="text-center">Choose from a variety of rooms designed to cater to your needs. Whether you're traveling solo, as a couple, or with family, our accommodations offer the ideal blend of comfort and style, ensuring a restful night's sleep after a day of exploration.</p>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <img src="image\download (20).jpeg" style="box-shadow: 10px 10px 20px 5px grey; height: 200px">
+                <div class="card-body">
+                    <div class="text-center">
+                        <h4>Bunk Bed Rooms</h4>
+                        <button class="btn btn-info "style="border-radius: 10px;" >
+                 Book Now
+                </button>
+                <button class="btn  "style="border-radius: 10px; border: 1px solid black;" >
+                Read More
+                </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="image\download (21).jpeg" style="box-shadow: 10px 10px 20px 5px grey; height: 200px">
+                <div class="card-body">
+                    <div class="card-title text-center">
+                        <h4> Double Bedroom</h4>
+                        <button class="btn btn-info "style="border-radius: 10px;" >
+                 Book Now
+                </button>
+                  <button class="btn  "style="border-radius: 10px; border: 1px solid black;" >
+                Read More
+                </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="image\download (22).jpeg" style="box-shadow: 10px 10px 20px 5px grey; height: 200px;">
+                <div class="card-body">
+                    <div class="card-title text-center">
+                        <h4>Family room</h4>
+                        <button class="btn btn-info "style="border-radius: 10px;" >
+                 Book Now
+                </button>
+                <button class="btn  "style="border-radius: 10px; border: 1px solid black;" >
+                Read More
+                </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="image\download (23).jpeg" style="box-shadow: 10px 10px 20px 5px grey; height: 200px">
+                <div class="card-body">
+                    <div class="card-title text-center">
+                        <h4>Single bed room</h4>
+                        <button class="btn btn-info "style="border-radius: 10px;" >
+                 Book Now
+                </button>
+                <button class="btn  "style="border-radius: 10px; border: 1px solid black;" >
+                Read More
+                </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="image\download (24).jpeg" style="box-shadow: 10px 10px 20px 5px grey; height: 200px;">
+                <div class="card-body">
+                    <div class="card-title text-center">
+                        <h4>Twin bed room</h4>
+                        <button class="btn btn-info "style="border-radius: 10px;" >
+                 Book Now
+                </button>
+                <button class="btn  "style="border-radius: 10px; border: 1px solid black;" >
+                Read More
+                </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="image\download (25).jpeg" style="box-shadow: 10px 10px 20px 5px grey; height: 200px;">
+                <div class="card-body">
+                    <div class="card-title text-center">
+                        <h4>Triple room</h4>
+                        <button class="btn btn-info "style="border-radius: 10px;" >
+                 Book Now
+                </button>
+                <button class="btn  "style="border-radius: 10px; border: 1px solid black;" >
+                Read More
+                </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="image\download (26).jpeg" style="box-shadow: 10px 10px 20px 5px grey; height: 200px;">
+                <div class="card-body">
+                    <div class="card-title text-center">
+                        <h4>Quad room</h4>
+                        <button class="btn btn-info "style="border-radius: 10px;" >
+                 Book Now
+                </button>
+                <button class="btn  "style="border-radius: 10px; border: 1px solid black;" >
+                Read More
+                </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <img src="image\download (27).jpeg" style="box-shadow: 10px 10px 20px 5px grey; height: 200px;">
+                <div class="card-body">
+                    <div class="card-title text-center">
+                        <h4>Standard room</h4>
+                        <button class="btn btn-info "style="border-radius: 10px;" >
+                 Book Now
+                </button>
+                <button class="btn  "style="border-radius: 10px; border: 1px solid black;" >
+                Read More
+                </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+    <div class="container mt-5" id="contact">
+        <h1 class="text-center">Contact Us</h1>
+        <p class="text-center">We'd love to hear from you! Reach out with any questions or comments about your stay.</p>
+        <form class="form-control" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" name="name" autocomplete="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" autocomplete="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+            </div>
+            <div class="text-center mt-2">
+                <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            </div>
+        </form>
+        <div class="text-center mt-4">
+            <h5>Follow Us</h5>
+            <a href="https://www.instagram.com/" target="_blank">
+                <i class="fa-brands fa-instagram" style="color: #e5e7eb; font-size: 50px;"></i>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <i class="fa-brands fa-facebook" style="color: #e4e7ec; font-size: 50px;"></i>
+            </a>
+        </div>
+    </div>
+
+</body>
+<script type="text/javascript">
+    let items_2 = document.querySelectorAll('.carousel_03 .carousel-item_03')
+
+        items_2.forEach((el) => {
+            const minPerSlide = 4
+            let next = el.nextElementSibling
+            for (var i=1; i<minPerSlide; i++) {
+                if (!next) {
+            // wrap carousel by using first child
+            next = items_2[0]
+        }
+        let cloneChild = next.cloneNode(true)
+        el.appendChild(cloneChild.children[0])
+        next = next.nextElementSibling
+    }
+})
+</script>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</html>

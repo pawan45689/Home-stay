@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>chalet</title>
+	  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+      <style>
+          h1{
+            text-shadow: 2px 2px 10px black;
+          }
+     .btn:hover{
+        color: orange;
+        background-color: white;
+     } 
+      </style>
+</head>
+<body>
+ <div class=" container-fluid bg-dark-subtle  text-center py-5">
+    <a href="index.html"> <img src="image\ogo-design.jpeg"style="width: 70px; height: 70px;  mix-blend-mode: darken" class="img-thumbnail rounded-circle"> </a>
+        <h1 >Welcome to Our Cozy Chalet</h1>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+   
+        <div class="container-fluid text-center py-5 bg-dark-subtle mt-4"id="about">
+            <h2 >About Our Chalet</h2>
+            <p class="lead">Experience the tranquility of nature in our beautiful chalet, equipped with modern amenities and surrounded by breathtaking views. Perfect for families and couples alike!</p>
+            <img src="image/download (44).jpeg" alt="Cozy Chalet" class="img-fluid rounded mb-4">
+            <div>
+                <a href="#"><button class="btn btn-danger">Book Now</button></a>
+            </div>
+        </div>
+    
+
+    <div id="gallery" class=" container py-5 bg-light bg-dark-subtle mt-4">
+        <div class="container">
+            <h2 class="text-center ">Gallery</h2>
+            <div class="row mt-2">
+                <div class="col-md-3 "><img src="image/download (45).jpeg" alt="Image 1" class="img-fluid rounded-"></div>
+                <div class="col-md-3 "><img src="image/download (46).jpeg" alt="Image 2" class="img-fluid rounded"></div>
+                <div class="col-md-3 "><img src="image/download (47).jpeg" alt="Image 3" class="img-fluid rounded"></div>
+                <div class="col-md-3"><img src="image/download (48).jpeg" alt="Image 4" class="img-fluid rounded"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="testimonials" class=" container py-5 bg-dark-subtle mt-4">
+        <div class="container">
+            <h2 class="text-center ">What Our Guests Say</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"A beautiful escape! The chalet was perfect for our family getaway." - Jane D.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"Amazing views and cozy atmosphere. We will definitely come back!" - Mark S.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"The perfect place to relax and unwind. Highly recommended!" - Emily R.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class=" container py-5 bg-dark-subtle mt-4">
+       
+            <h2 class="text-center ">Contact Us</h2>
+            <form method="post">
+                <div class="form-group">
+    <label for="name">Name:</label>
+    <input type="text" class="form-control form-control-lg" name="name" id="name" autocomplete="name" required>
+</div>
+<div class="form-group">
+    <label for="email">Email:</label>
+    <input type="email" name="email" class="form-control form-control-lg" id="email" autocomplete="email" required>
+</div>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control form-control-lg" id="message" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-danger  ">Send Message</button>
+            </form>
+        
+    </div>
+
+    <div class=" container-fluid  bg-dark-subtle text-white text-center py-4 mt-4">
+        <p>&copy; 2024 Chalet Home Stay. All rights reserved.</p>
+    </div>
+</body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</html>

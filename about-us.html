@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <style>
+    .slide-in {
+    opacity: 0; 
+    transform: translateY(100%); 
+    
+    animation: slideIn 5s forwards; 
+
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1; 
+        transform: translateY(0);
+
+    }
+}
+.slide-in:nth-of-type(2) {
+    animation-delay: 0.5s;
+}
+h1{
+    text-shadow: 2px 2px 5px black;
+}
+
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="image\ogo-design.jpeg" style="width: 70px; height: 70px;  mix-blend-mode: darken" class="img-thumbnail rounded-circle"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#mission">Our Mission</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#values">Our Values</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid bg-success-subtle text-black text-center py-5 " style=" margin-top: 150px;">
+        <h1 class="slide-in" style=" ">All India Homestay</h1>
+        <p class=" slide-in">Experience the warmth and hospitality of Indian culture</p>
+    </div>
+
+    <div class="container-fluid">
+        <img src="C:\Users\pawan\Desktop\p\image\banner.jpeg" class="img-fluid h-25">
+    </div>
+
+    <div class="container bg-success-subtle mt-5 text-black" id="about">
+        <p class="text-center">At All India Homestay, we provide a unique blend of comfort and local charm, offering our guests a true taste of Indian hospitality.</p>
+        <div class="row mt-4">
+            <div class="col-md-6" id="mission">
+                <h3 class="pe-5 ps-5">Our Mission</h3>
+                <p class="pe-5 ps-5">To create unforgettable experiences for our guests through personalized service and authentic local culture.</p>
+            </div>
+            <div class="col-md-6" id="values">
+                <h3 class="pe-5 ps-5">Our Values</h3>
+                <p class="pe-5 ps-5">We believe in sustainability, community support, and providing a home-like environment for all our visitors.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5 bg-success-subtle p-5">
+        <h2 class="text-center">Discover the Heart of India at Our Homestay</h2>
+        <hr>
+        <p class="text-center p-5">where authentic Indian hospitality meets comfort and culture. Immerse yourself in our vibrant traditions, indulge in delicious local cuisine, and experience the warmth of our community...</p>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-2"><img src="image/download (1).jpeg" class="img-fluid"></div>
+            <div class="col-md-2"><img src="image/download (2).jpeg" class="img-fluid"></div>
+            <div class="col-md-2"><img src="image/download (13).jpeg" class="img-fluid"></div>
+            <div class="col-md-2"><img src="image/download (4).jpeg" class="img-fluid"></div>
+            <div class="col-md-2"><img src="image/download (14).jpeg" class="img-fluid"></div>
+            <div class="col-md-2"><img src="image/download (6).jpeg" class="img-fluid"></div>
+            <div class="col-md-2"><img src="image/download (7).jpeg" class="img-fluid"></div>
+            <div class="col-md-2"><img src="image/download (8).jpeg" class="img-fluid"></div>
+            <div class="col-md-2"><img src="image/download (9).jpeg" class="img-fluid"></div>
+            <div class="col-md-2"><img src="image/download (10).jpeg" class="img-fluid"></div>
+            <div class="col-md-2"><img src="image\oty.jpg" class="img-fluid" style="width: 100%; height: 85%;"></div>
+            <div class="col-md-2"><img src="image/download (16).jpeg" class="img-fluid"></div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-success-subtle text-center">
+        <p>&copy; 2024 All India Homestay. All rights reserved.</p>
+    </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
