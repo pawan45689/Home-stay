@@ -1,9 +1,13 @@
 body{
-            background-image: url(../image/Background-Web.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
+       
+	background-color:#bcc3b6;
         }
-   
+
+   .wel{
+   	font-size: 40px;
+   	font-weight:bold ;
+   	color: orange;
+   }
 
 .search-bar {
     position: relative;
