@@ -88,6 +88,8 @@ body{
   opacity: 0; 
   transform: translateX(-100%); 
   animation: slideIn 5s forwards; 
+  font-weight: bold;
+
 }
 
 @keyframes slideIn {
@@ -139,4 +141,87 @@ background-image: url(../image/swim.jpeg);
 }
 .styl:hover{
 	color: orange;
+}
+.fac{
+	background-color: rgba(0, 0, 0, 0.5); 
+	position: absolute; bottom: 0; left: 50%; 
+	transform: translateX(-50%)
+}
+
+.ins{
+	 float: left;
+  clip-path: circle(40%);
+  shape-outside: circle(45%);
+}
+@media (max-width: 768px) {
+    .ins {
+      float: none;
+      display: block;
+      margin: 0 auto;
+      clip-path: circle(50%);
+      shape-outside: none;
+    }
+
+    .container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .p-5 {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+
+.about-homestay {
+  border-bottom-style: solid;
+  border-color: lightblue;
+  border-width: 1px;
+}
+
+.logosection {
+  border-bottom-style: solid;
+  border-color: red;
+  border-width: 1px;
+  border-left-style: solid;
+  border-color: lightblue;
+  border-width: 1px;
+}
+
+.logosection img {
+  width: 200px;
+  height: 200px;
+  mix-blend-mode: darken;
+}
+
+.contact {
+  border-left-style: solid;
+  border-color: lightblue;
+  border-width: 1px;
+  border-bottom-style: solid;
+  border-color: lightblue;
+  border-width: 1px;
+}
+
+.contact i {
+  color: #e4e9f1;
+}
+
+/* Social Media Icons */
+.contact .fa-instagram, 
+.contact .fa-facebook, 
+.contact .fa-twitter {
+  font-size: 50px;
+}
+
+.contact .fa-instagram {
+  color: #e5e7eb;
+}
+
+.contact .fa-facebook {
+  color: #e4e7ec;
+}
+
+.contact .fa-twitter {
+  color: #eff1f5;
 }
